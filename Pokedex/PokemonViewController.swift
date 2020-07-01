@@ -17,7 +17,7 @@ class PokemonViewController: UIViewController {
     var isCaught = false
     let defaults = UserDefaults.standard
     var pokemonStatesList: [String: Bool] = [:]
-    var currentDescURL: String! //= "https://pokeapi.co/api/v2/pokemon-species/1" // to check
+    var currentDescURL: String = "https://pokeapi.co/api/v2/pokemon-species/1" // to check description method
     
     func capitalize(text: String) -> String {
         return text.prefix(1).uppercased() + text.dropFirst()
@@ -56,7 +56,7 @@ class PokemonViewController: UIViewController {
                         self.pokemonImage.image = UIImage(data: data)
                     }
                     self.currentDescURL = result.species.url
-                    print(self.currentDescURL!)
+                    print(self.currentDescURL)
                 }
             } catch let error { print(error) }
         }.resume()

@@ -131,7 +131,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MgG-Aj-G8B">
-                                <rect key="frame" x="20" y="572.5" width="374" height="0.0"/>
+                                <rect key="frame" x="20" y="589.5" width="374" height="0.0"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -155,7 +155,7 @@
                             <constraint firstItem="cVc-In-IFv" firstAttribute="trailing" secondItem="MgG-Aj-G8B" secondAttribute="trailing" constant="20" id="lEk-aI-RmR"/>
                             <constraint firstItem="cVc-In-IFv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="y6E-8v-JhD" secondAttribute="trailing" symbolic="YES" id="oDd-V2-5lN"/>
                             <constraint firstItem="OaR-u6-eNE" firstAttribute="top" secondItem="cVc-In-IFv" secondAttribute="top" constant="10" id="qG9-Ei-9rz"/>
-                            <constraint firstItem="MgG-Aj-G8B" firstAttribute="top" secondItem="zmK-FF-vav" secondAttribute="bottom" constant="10" id="xoL-Fr-Xmw"/>
+                            <constraint firstItem="MgG-Aj-G8B" firstAttribute="top" secondItem="zmK-FF-vav" secondAttribute="bottom" constant="27" id="xoL-Fr-Xmw"/>
                             <constraint firstItem="pSm-0Z-rVe" firstAttribute="leading" secondItem="Sja-25-iqf" secondAttribute="leading" id="ywN-CS-ZvR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cVc-In-IFv"/>
